@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container{
+    text-align: center;
+}
+.text-with-image-bg{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-image: url(landscape-anime-digital-art-fantasy-art-wallpaper-thumb.jpg);
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+}
